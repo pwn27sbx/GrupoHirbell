@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://grupohirbell.vercel.app', // <--- ¡Asegúrate de agregar esta línea!
   vite: {
     plugins: [tailwindcss()]
   },
